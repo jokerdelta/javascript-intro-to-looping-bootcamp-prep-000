@@ -18,9 +18,9 @@ array.push("I am ${i} strange loops.");
 
 function whileLoop(n){
 
-while (n > 0;n--){
-
+while (n > 0){
   console.log('The number is ${n}.');
+  n--;
   } //end of while loop
 
   console.log('done');
